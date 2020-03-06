@@ -1,0 +1,36 @@
+Caseading Style Sheets 层叠样式表
+
+选择器{
+	属性名：属性值；
+
+	}
+
+css添加方法：
+	1,行内
+	<p style ="color:red;">
+	asd
+	</p>
+
+	2,内嵌样式
+	<head>
+	<style type="text/css">
+	p{
+		color:red;  /*设置字体颜色*/
+	}
+	</style>
+	</head>
+
+	3,单独文件
+	<head>
+	<link rel="stulesheet" href="css/style.css"/>
+	</head>
+	快捷键：link:css
+
+css添加方法--优先级：
+	多重样式可以层叠，可以覆盖
+	样式的优先级按照“就近原则”
+	行内样式>内嵌样式>链接样式>浏览器默认样式 
+
+
+	
+
